@@ -94,12 +94,12 @@
 	Frontend
 
 	- State management is handled by Zustand, a small, fast, and scalable state management 	library.
-	- Zustand was chosen for its simplicity, ease of use, and minimal boilerplate, which 			integrates well with the React ecosystem.
+	- Zustand was chosen for its simplicity, ease of use, and minimal boilerplate, which integrates well with the React ecosystem.
 
 	Backend
 
-	- The backend state is managed using Entity Framework Core, which provides a robust ORM 		for managing the database state.
-	- This solution was chosen for its seamless integration with .NET and its powerful features 		for database management.
+	- The backend state is managed using Entity Framework Core, which provides a robust ORM for managing the database state.
+	- This solution was chosen for its seamless integration with .NET and its powerful features for database management.
 
 
                    _______________________________________________________________
@@ -108,7 +108,7 @@
 4. How does your approach for precise number calculations work?
 
 	- Backend: I used C#'s decimal type to ensure precision in financial calculations.
-	- Frontend: I used JavaScript's Number object and the `toFixed` method for precise number 		calculations.
+	- Frontend: I used JavaScript's Number object and the `toFixed` method for precise number calculations.
 
                    _______________________________________________________________
 
@@ -128,7 +128,7 @@
 		3. Create Repository and Interfaces: 
 			- Implement repository classes and interfaces for data access.
 		4. Construct API Controllers: 
-			- Implement controllers to handle HTTP requests and interact with 					repositories.
+			- Implement controllers to handle HTTP requests and interact with repositories.
 		5. Test the Backend: 
 			- Ensure that all endpoints and functionalities work as expected.
 
@@ -143,5 +143,5 @@
 		4. Set up State Management: 
    			- Configure Zustand for handling the application's state.
 		5. Integration Testing: 
-   			- Test the interaction between the frontend and backend to ensure smooth data 				flow.
+   			- Test the interaction between the frontend and backend to ensure smooth data flow.
 
